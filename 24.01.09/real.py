@@ -330,4 +330,4 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 
-plot_ear(frame_handler)
+# plot_ear(frame_handler)
