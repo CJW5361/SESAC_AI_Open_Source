@@ -21,8 +21,8 @@ counts=0
 # 이메일 설정
 def student(filep):
 
-    email_sender = 'kim83290326@gmail.com'  # 발신자 이메일 주소
-    email_receiver = 'wldnr5361@gmail.com'  # 수신자 이메일 주소
+    email_sender = ''  # 발신자 이메일 주소
+    email_receiver = ''  # 수신자 이메일 주소
     email_subject = '학생이 졸고 있습니다'
     email_message = '안녕하세요! OOO학생이 졸고있습니다'
 
@@ -46,8 +46,8 @@ def student(filep):
     # SMTP 서버 연결
     smtp_server = 'smtp.gmail.com'  # Gmail SMTP 서버 주소
     smtp_port = 587  # Gmail SMTP 포트 번호
-    sender_email = 'kim83290326@gmail.com'  # 발신자 이메일 주소
-    sender_password = 'vqyx hqci olrr pzyq'  # 발신자 이메일 비밀번호
+    sender_email = ''  # 발신자 이메일 주소
+    sender_password = ''  # 발신자 이메일 비밀번호
 
     # SMTP 서버 연결 및 이메일 보내기
     try:
