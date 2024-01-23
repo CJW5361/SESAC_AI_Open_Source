@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="static/css/style.css">
+<body>  
+    <h1>삼성전자</h1>
+    <ul>
+        {% for item in datas %}
+        <li>
+            <p> 제공처 : {{ item['제공처'] }} </p>
+            <p> 최종일자 : {{ item['최종일자'] }}</p>
+            <p> 목표가 : {{ item['목표가'] }}</p>
+            <p> 직전목표가 : {{ item['직전목표가'] }}</p>
+            <p> 변동률(%) : {{ item['변동률(%)']}}</p>
+            <p> 투자의견 : {{  item['투자의견']  }}</p>
+            <p> 직전투자의견 : {{  item['직전투자의견']}}</p>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <button><a href="{{ url_for('index_table') }}">Index Table 페이지로 이동</a></button>
+    
+</body>
+
+</html>

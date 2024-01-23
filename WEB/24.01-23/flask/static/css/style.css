@@ -1,0 +1,18 @@
+h1 {
+    color: white;
+    background: blue;
+    padding: 10px 0; /* 상하 여백을 한 번에 설정 */
+    border-bottom: 2px solid white; /* 밑줄 스타일 적용 */
+}
+table {
+    border-collapse: collapse;
+    width:100%;
+}
+th,td{
+    border :1px solid #add;
+    padding :8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
